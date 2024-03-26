@@ -8,7 +8,7 @@ import logo from '../../assets/LOGO.svg'
 function Header() {
   
 return (
-  <header className='header_container'>
+  <header className='header-container'>
     <Link to="/">
       <img className='logo' src={logo} alt="logo kasa"/>
     </Link>
