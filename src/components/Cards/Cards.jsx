@@ -2,8 +2,8 @@ export default function Card({ cover, title }) { //les cards de locations récup
 	return (
 		<article className="card-logement">
 			<img src={cover} alt="location" />
-			<div className="card-logement__layer">
-				<p className="card-logement__title">{title}</p>
+			<div className="card-logement-layer">
+				<p className="card-logement-title">{title}</p>
 			</div>
 		</article>
 	);

@@ -6,8 +6,8 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Logement from './pages/Logements/Logements';
 import ErrorPage from './pages/Error/Error';
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
