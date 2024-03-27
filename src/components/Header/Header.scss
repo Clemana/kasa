@@ -1,9 +1,15 @@
 .header-container {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: space-between;
     margin: 50px;
     .navbar {
         display: flex;
-       align-items: center;
+        align-items: center;
+        gap: 30px;
     }
+   a {
+    all: unset;
+    cursor: pointer;
+   }
 }
