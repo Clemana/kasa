@@ -1,14 +1,12 @@
 import React from 'react'
-import BannerAbout from'../../assets/BannerAbout.svg'
 import Collapse from '../../components/Collapse/Collapse';
-
  
 function About() {
   
     return  (
     <main className='main_about'>
         <article className='banner'>
-            <img className='banner_img' src={BannerAbout} alt="paysage montagne" />
+           
         </article >
 
         <section className='section_about'>
