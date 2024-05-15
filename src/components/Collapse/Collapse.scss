@@ -1,4 +1,10 @@
-
+.collapse-fiche-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
 .collapse_div{
     flex-direction: column;
     display: flex;
