@@ -7,6 +7,12 @@
     min-width: 335px;
     transition: transform 1s;
 
+    @media (max-width: 400px) {
+        width: 80px;
+        min-width: 260px;
+    }
+
+
     img {
         display: flex;
         width: 100%;
@@ -36,6 +42,7 @@
         top: 78.82%;
         bottom: 5.88%;
     }
+    
 }
 
 .cards-container {
@@ -46,6 +53,7 @@
     border-radius: 10px;
     margin: 22px 0;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .link_card_logement {

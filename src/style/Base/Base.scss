@@ -1,7 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
 body {
 	@include body-position;
-	font-family: "Montserrat", sans-serif;
+
+
+	@media (min-width: $breakpoint-desktop) {
+		max-width: 100%;
+	}
+
+}
+
+main {
+	margin: 5%;
+
+	@media screen and (min-width: $breakpoint-desktop) {
+		margin: 0 100px;
+	}
+}
+
+
+
+.fiche-container {
+	@include flex-center;
+	flex-direction: column;
 }

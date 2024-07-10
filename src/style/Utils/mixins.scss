@@ -1,6 +1,5 @@
 @mixin body-position {
-    max-width: $wmax;
-    min-width: $wmin;
+   
     margin: 30px;
 }
 
@@ -9,4 +8,10 @@
     font-style: normal;
     font-weight: $weight;
     line-height: 142.6%;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
